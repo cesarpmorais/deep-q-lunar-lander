@@ -1,4 +1,6 @@
+swig
 gymnasium[box2d]
 torch
 numpy
 matplotlib
+stable-baselines3[extra]

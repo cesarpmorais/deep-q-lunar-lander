@@ -5,6 +5,7 @@ Este projeto implementa um agente DQN para o ambiente LunarLander-v3 do Gymnasiu
 ## Requisitos
 
 - Python 3.10+
+- Microsoft C++ Build Tools
 - GPU NVIDIA (opcional, recomendado)
 
 ### Pacotes necessários
