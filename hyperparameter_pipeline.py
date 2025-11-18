@@ -83,6 +83,10 @@ if __name__ == "__main__":
         json.dump(aggregated, f, indent=2)
     print(f"Saved aggregated Phase B results to: {phaseB_file}")
 
+    os.makedirs(os.path.dirname("top5_configs"), exist_ok=True)
+    with open("top5_configs", "w") as f:
+        json.dump(aggregated[:5], f, indent=2)
+
     env.close()
 
     print("Pipeline finished.")
