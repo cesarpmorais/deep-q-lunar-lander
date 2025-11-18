@@ -80,7 +80,7 @@ if __name__ == "__main__":
             gamma=top5[i]["gamma"],
             exploration_initial_eps=top5[i]["epsilon_start"],
             exploration_final_eps=top5[i]["epsilon_end"],
-            exploration_fraction=top5[i]["epsilon_decay"],
+            exploration_fraction=1-top5[i]["epsilon_decay"],
             buffer_size=top5[i]["buffer_capacity"],
             batch_size=top5[i]["batch_size"],
             target_update_interval=top5[i]["target_update_freq"],
