@@ -39,14 +39,14 @@ def calculateBaseline(learning_rate=5e-4,
 
     model = DQN(
         "MlpPolicy", env, 
-        learning_rate=5e-4,
-        gamma=0.99, 
-        exploration_initial_eps=1.0,
-        exploration_final_eps=0.01,
-        exploration_fraction=0.005,
-        buffer_size=100000,
-        batch_size=64,
-        target_update_interval=10,
+        learning_rate=learning_rate,
+        gamma=gamma, 
+        exploration_initial_eps=exploration_initial_eps,
+        exploration_final_eps=exploration_final_eps,
+        exploration_fraction=exploration_fraction,
+        buffer_size=buffer_size,
+        batch_size=batch_size,
+        target_update_interval=target_update_interval,
         verbose=0, 
         device=device)
     reward_callback = RewardLogger()
@@ -60,7 +60,7 @@ def calculateBaseline(learning_rate=5e-4,
     mean_reward = np.mean(rewards)
     print(f"Recompensa media por episodio: {mean_reward}")
 
-    plot_training_results(rewards, [], 1)
+    #plot_training_results(rewards, [], 1)
 
     env.close()
 
@@ -85,13 +85,12 @@ if __name__ == "__main__":
             batch_size=top5[i]["batch_size"],
             target_update_interval=top5[i]["target_update_freq"],
         )
-        print(f"Recompensa média baseline: {baseline_avg}\n")
-        print(f"Recompensa média do top-{i+1}: {data[i]['mean_reward']}\n")
     
-
-
-
+    with open("baseline_comparison.txt", "w") as f:
+        for i in range(5):
+            f.write(f"Configuração top-{i+1}:\n")
+            f.write(f"Hiperparâmetros: {top5[i]}\n")
+            f.write(f"Recompensa média baseline: {baseline_avg}\n")
+            f.write(f"Recompensa média do top-{i+1}: {data[i]['mean_reward']}\n\n")
     
-    
-    calculateBaseline()
     
