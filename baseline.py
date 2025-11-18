@@ -57,7 +57,7 @@ def calculateBaseline(learning_rate=5e-4,
     model.save("dqn_lunar_lander_baseline")
 
     rewards = reward_callback.episode_rewards
-    mean_reward = np.mean(rewards)
+    mean_reward = np.mean(rewards[-50:])
     print(f"Recompensa media por episodio: {mean_reward}")
 
     #plot_training_results(rewards, [], 1)
