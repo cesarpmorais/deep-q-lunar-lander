@@ -53,7 +53,7 @@ def calculateBaseline(learning_rate=5e-4,
     stop_callback = StopTrainingOnMaxEpisodes(max_episodes=1000, verbose=0)
     callback = CallbackList([reward_callback, stop_callback])
 
-    model.learn(total_timesteps=1000000, callback=callback)
+    model.learn(total_timesteps=1000000, callback=callback, progress_bar=True)
     model.save("dqn_lunar_lander_baseline")
 
     rewards = reward_callback.episode_rewards
