@@ -1,0 +1,30 @@
+[
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": 129.41641245233754,
+    "std_reward": 39.37761572589847,
+    "run_rewards": [
+      141.5531252927573,
+      76.27980684590148,
+      170.41630521835387
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_0_run_0.npz",
+      "results/hyper_search_histories/config_0_run_1.npz",
+      "results/hyper_search_histories/config_0_run_2.npz"
+    ]
+  }
+]

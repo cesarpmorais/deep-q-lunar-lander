@@ -1,0 +1,87 @@
+[
+    {
+        "config": {
+            "learning_rate": 0.0008,
+            "gamma": 0.99,
+            "epsilon_decay": 0.9995,
+            "batch_size": 64,
+            "target_update_freq": 10,
+            "hidden_dims": [
+                64,
+                64
+            ],
+            "epsilon_start": 1.0,
+            "epsilon_end": 0.01,
+            "buffer_capacity": 50000
+        },
+        "mean_reward": 219.25336520561734
+    },
+    {
+        "config": {
+            "learning_rate": 0.0008,
+            "gamma": 0.99,
+            "epsilon_decay": 0.999,
+            "batch_size": 64,
+            "target_update_freq": 10,
+            "hidden_dims": [
+                128,
+                128
+            ],
+            "epsilon_start": 1.0,
+            "epsilon_end": 0.01,
+            "buffer_capacity": 50000
+        },
+        "mean_reward": 195.849149831029
+    },
+    {
+        "config": {
+            "learning_rate": 0.0005,
+            "gamma": 0.995,
+            "epsilon_decay": 0.9995,
+            "batch_size": 64,
+            "target_update_freq": 10,
+            "hidden_dims": [
+                128,
+                128
+            ],
+            "epsilon_start": 1.0,
+            "epsilon_end": 0.01,
+            "buffer_capacity": 100000
+        },
+        "mean_reward": 163.98469250932712
+    },
+    {
+        "config": {
+            "learning_rate": 0.0005,
+            "gamma": 0.995,
+            "epsilon_decay": 0.9995,
+            "batch_size": 32,
+            "target_update_freq": 10,
+            "hidden_dims": [
+                128,
+                128
+            ],
+            "epsilon_start": 1.0,
+            "epsilon_end": 0.01,
+            "buffer_capacity": 50000
+        },
+        "mean_reward": 162.20218469694987
+    },
+    {
+        "config": {
+            "learning_rate": 0.001,
+            "gamma": 0.99,
+            "epsilon_decay": 0.9995,
+            "batch_size": 64,
+            "target_update_freq": 10,
+            "hidden_dims": [
+                128,
+                128
+            ],
+            "epsilon_start": 1.0,
+            "epsilon_end": 0.01,
+            "buffer_capacity": 50000
+        },
+        "mean_reward": 158.86916778567343
+    }
+]

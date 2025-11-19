@@ -1,0 +1,4610 @@
+[
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": 259.30819586882683,
+    "std_reward": 0.0,
+    "run_rewards": [
+      259.30819586882683
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_54_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": 246.8532078924323,
+    "std_reward": 0.0,
+    "run_rewards": [
+      246.8532078924323
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_78_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": 238.83793262144846,
+    "std_reward": 0.0,
+    "run_rewards": [
+      238.83793262144846
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_63_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": 203.63593257673196,
+    "std_reward": 0.0,
+    "run_rewards": [
+      203.63593257673196
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_158_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": 197.87730776555998,
+    "std_reward": 0.0,
+    "run_rewards": [
+      197.87730776555998
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_130_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": 188.32352131942648,
+    "std_reward": 0.0,
+    "run_rewards": [
+      188.32352131942648
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_92_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": 169.4567650891218,
+    "std_reward": 0.0,
+    "run_rewards": [
+      169.4567650891218
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_47_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": 165.7656454478082,
+    "std_reward": 0.0,
+    "run_rewards": [
+      165.7656454478082
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_42_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": 155.1053944819678,
+    "std_reward": 0.0,
+    "run_rewards": [
+      155.1053944819678
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_75_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": 151.80357926810242,
+    "std_reward": 0.0,
+    "run_rewards": [
+      151.80357926810242
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_28_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": 150.55627050916087,
+    "std_reward": 0.0,
+    "run_rewards": [
+      150.55627050916087
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_80_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": 147.00728530489567,
+    "std_reward": 0.0,
+    "run_rewards": [
+      147.00728530489567
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_191_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": 142.68423210287625,
+    "std_reward": 0.0,
+    "run_rewards": [
+      142.68423210287625
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_77_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": 136.94810437258775,
+    "std_reward": 0.0,
+    "run_rewards": [
+      136.94810437258775
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_154_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": 120.9874435819601,
+    "std_reward": 0.0,
+    "run_rewards": [
+      120.9874435819601
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_123_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": 68.89947973321871,
+    "std_reward": 0.0,
+    "run_rewards": [
+      68.89947973321871
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_122_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": 64.78031629081525,
+    "std_reward": 0.0,
+    "run_rewards": [
+      64.78031629081525
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_187_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": 63.10516723829231,
+    "std_reward": 0.0,
+    "run_rewards": [
+      63.10516723829231
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_189_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": 54.90669733608777,
+    "std_reward": 0.0,
+    "run_rewards": [
+      54.90669733608777
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_73_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": 49.70813855658391,
+    "std_reward": 0.0,
+    "run_rewards": [
+      49.70813855658391
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_140_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": 45.69730893418959,
+    "std_reward": 0.0,
+    "run_rewards": [
+      45.69730893418959
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_150_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": 31.810311721316133,
+    "std_reward": 0.0,
+    "run_rewards": [
+      31.810311721316133
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_83_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": 31.396388865718052,
+    "std_reward": 0.0,
+    "run_rewards": [
+      31.396388865718052
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_185_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": 21.929098327673287,
+    "std_reward": 0.0,
+    "run_rewards": [
+      21.929098327673287
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_93_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": 8.774276115134317,
+    "std_reward": 0.0,
+    "run_rewards": [
+      8.774276115134317
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_147_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": 6.395806258368216,
+    "std_reward": 0.0,
+    "run_rewards": [
+      6.395806258368216
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_89_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": 1.3284953280244025,
+    "std_reward": 0.0,
+    "run_rewards": [
+      1.3284953280244025
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_156_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -3.50990336478572,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -3.50990336478572
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_1_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -4.4300646030989865,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -4.4300646030989865
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_108_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -4.44725564627295,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -4.44725564627295
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_10_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -6.177575078272474,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -6.177575078272474
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_165_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -7.665916361451968,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -7.665916361451968
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_90_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -9.400956885636297,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -9.400956885636297
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_82_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -9.715770727549849,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -9.715770727549849
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_103_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -11.387379644133427,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -11.387379644133427
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_7_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -13.813250645077037,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -13.813250645077037
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_87_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -15.624117545967342,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -15.624117545967342
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_21_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -16.1182365581929,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -16.1182365581929
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_95_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -16.417741834683067,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -16.417741834683067
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_16_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -17.931303509214082,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -17.931303509214082
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_143_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -17.97358660452627,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -17.97358660452627
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_157_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -19.82157307478939,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -19.82157307478939
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_70_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -20.355232448173055,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -20.355232448173055
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_19_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -21.553396108786643,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -21.553396108786643
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_167_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -21.914304456131713,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -21.914304456131713
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_15_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -22.97598540387059,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -22.97598540387059
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_2_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -23.011533632527506,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -23.011533632527506
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_4_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -27.09567622661475,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -27.09567622661475
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_12_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -27.95825335719468,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -27.95825335719468
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_43_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -31.10111417234841,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -31.10111417234841
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_182_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -31.35270123037551,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -31.35270123037551
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_58_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -31.864646282132803,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -31.864646282132803
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_134_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -32.21949734529812,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -32.21949734529812
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_153_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -34.541998011086015,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -34.541998011086015
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_3_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -35.706208484905986,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -35.706208484905986
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_53_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -35.75869735611287,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -35.75869735611287
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_144_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -39.4470797933953,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -39.4470797933953
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_135_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -39.456696702539446,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -39.456696702539446
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_85_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -40.02850508909219,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -40.02850508909219
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_125_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -40.546876560705805,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -40.546876560705805
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_190_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -41.131150251706856,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -41.131150251706856
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_118_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -41.713270267869156,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -41.713270267869156
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_71_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -42.768303719415655,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -42.768303719415655
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_50_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -45.42948813507789,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -45.42948813507789
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_72_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -45.892152394577394,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -45.892152394577394
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_5_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -47.50055991859058,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -47.50055991859058
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_31_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -48.55725865248289,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -48.55725865248289
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_159_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -49.36305890542466,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -49.36305890542466
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_13_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -49.45860518178911,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -49.45860518178911
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_104_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -49.482243245654736,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -49.482243245654736
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_109_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -51.668489980963,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -51.668489980963
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_52_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -53.098290988127204,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -53.098290988127204
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_40_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -53.37496978511795,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -53.37496978511795
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_116_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -55.34830863588199,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -55.34830863588199
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_30_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -55.35615605106257,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -55.35615605106257
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_136_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -55.47145399076146,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -55.47145399076146
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_174_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -55.664316480800515,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -55.664316480800515
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_162_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -56.048091351336254,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -56.048091351336254
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_148_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -56.081653571137394,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -56.081653571137394
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_81_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -56.10344633496561,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -56.10344633496561
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_166_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -56.26804531140313,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -56.26804531140313
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_132_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -56.355783031624085,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -56.355783031624085
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_152_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -56.82033006627203,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -56.82033006627203
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_0_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -57.00524895455506,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -57.00524895455506
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_151_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -57.9528428942471,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -57.9528428942471
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_41_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -58.399735125229924,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -58.399735125229924
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_74_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -58.44411016520047,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -58.44411016520047
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_18_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -59.51464023312933,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -59.51464023312933
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_175_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -59.776893070735504,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -59.776893070735504
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_24_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -60.72979189489272,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -60.72979189489272
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_149_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -63.16531916136677,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -63.16531916136677
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_155_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -65.2285157854038,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -65.2285157854038
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_163_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -66.70809549004005,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -66.70809549004005
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_25_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -69.0751491456248,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -69.0751491456248
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_170_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -69.53159033239156,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -69.53159033239156
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_173_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -71.58362529306844,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -71.58362529306844
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_76_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -72.41072453314048,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -72.41072453314048
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_113_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -74.37616973543177,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -74.37616973543177
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_164_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -74.88096445774507,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -74.88096445774507
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_55_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -79.23199790148273,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -79.23199790148273
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_121_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -79.3368195634313,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -79.3368195634313
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_101_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -79.36628874718731,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -79.36628874718731
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_17_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -82.15569672020808,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -82.15569672020808
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_79_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -83.63430150031013,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -83.63430150031013
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_127_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -84.0131154441379,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -84.0131154441379
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_137_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -84.45812044966326,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -84.45812044966326
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_88_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -85.0366131610916,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -85.0366131610916
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_8_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -90.31662634377014,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -90.31662634377014
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_36_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -91.45050134201551,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -91.45050134201551
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_22_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -91.8840908204402,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -91.8840908204402
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_56_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -99.78253827867863,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -99.78253827867863
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_14_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -102.21397490430624,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -102.21397490430624
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_57_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -103.07411054350646,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -103.07411054350646
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_29_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -103.82607511209441,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -103.82607511209441
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_37_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -103.93618863498284,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -103.93618863498284
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_32_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -104.4228633291978,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -104.4228633291978
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_86_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -104.64285689372036,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -104.64285689372036
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_120_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -105.595603612085,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -105.595603612085
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_23_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -106.4768476837371,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -106.4768476837371
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_67_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -108.67154393971812,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -108.67154393971812
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_99_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -108.84614055925476,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -108.84614055925476
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_145_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -110.66731516294885,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -110.66731516294885
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_176_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -112.21271752190421,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -112.21271752190421
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_84_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -114.34967869653852,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -114.34967869653852
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_61_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -115.62888165605958,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -115.62888165605958
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_64_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -116.83711770253065,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -116.83711770253065
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_35_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -117.19038205904874,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -117.19038205904874
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_48_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -118.34595412532728,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -118.34595412532728
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_20_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -118.93974553018215,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -118.93974553018215
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_102_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -122.89428251183008,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -122.89428251183008
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_112_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -125.54143932235539,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -125.54143932235539
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_179_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -126.07983264149277,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -126.07983264149277
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_168_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -128.0771942400479,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -128.0771942400479
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_105_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -133.32778576675247,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -133.32778576675247
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_128_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -136.9722649123569,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -136.9722649123569
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_146_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -139.3980245899509,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -139.3980245899509
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_49_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -141.3207799170644,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -141.3207799170644
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_97_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -141.85835870344073,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -141.85835870344073
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_45_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -142.97103246235915,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -142.97103246235915
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_129_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -145.1886955147504,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -145.1886955147504
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_60_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -145.39967402518775,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -145.39967402518775
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_124_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -145.72802663292393,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -145.72802663292393
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_160_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -148.6687191240338,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -148.6687191240338
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_46_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -149.69386883819934,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -149.69386883819934
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_94_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -153.02798209936694,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -153.02798209936694
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_181_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -153.80505225068828,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -153.80505225068828
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_110_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -155.74231580029493,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -155.74231580029493
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_9_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -161.80136036951063,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -161.80136036951063
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_66_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -161.82030336211363,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -161.82030336211363
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_141_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -162.77532626208625,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -162.77532626208625
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_184_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -162.95250729783925,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -162.95250729783925
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_188_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -165.96412418951604,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -165.96412418951604
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_33_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -167.9688191736791,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -167.9688191736791
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_59_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -170.71737912919733,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -170.71737912919733
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_139_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -171.6321524308858,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -171.6321524308858
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_171_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -172.31881175780177,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -172.31881175780177
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_26_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -179.09521484307115,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -179.09521484307115
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_111_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -179.39937071022828,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -179.39937071022828
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_65_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -182.0830118370226,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -182.0830118370226
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_69_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -186.75400654440242,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -186.75400654440242
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_6_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -188.0751168102621,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -188.0751168102621
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_178_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -191.69127677531458,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -191.69127677531458
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_119_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -192.19714228546394,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -192.19714228546394
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_169_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -193.6613635279088,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -193.6613635279088
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_11_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -193.73819192279387,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -193.73819192279387
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_91_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -195.6218670028635,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -195.6218670028635
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_180_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -199.85190479179153,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -199.85190479179153
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_98_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -207.166893377069,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -207.166893377069
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_38_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -215.64482549569516,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -215.64482549569516
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_142_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -225.1001563348666,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -225.1001563348666
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_39_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -241.3117698418609,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -241.3117698418609
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_177_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -265.957447290539,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -265.957447290539
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_172_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -274.5474970283672,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -274.5474970283672
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_183_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -276.20277046871854,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -276.20277046871854
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_62_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -280.87689757177225,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -280.87689757177225
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_68_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -283.10477101481104,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -283.10477101481104
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_44_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -286.7194993148312,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -286.7194993148312
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_96_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -288.0290890130671,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -288.0290890130671
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_107_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -298.03814040827433,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -298.03814040827433
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_117_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -302.6864946861249,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -302.6864946861249
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_106_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -305.74213304915844,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -305.74213304915844
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_186_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -307.6430453539265,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -307.6430453539265
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_27_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -309.9317328333317,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -309.9317328333317
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_131_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -311.5098757400125,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -311.5098757400125
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_138_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -312.77168605045017,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -312.77168605045017
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_161_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -318.93404253279226,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -318.93404253279226
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_115_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -336.42426691594477,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -336.42426691594477
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_133_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -339.1181004675401,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -339.1181004675401
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_114_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -342.5645705467174,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -342.5645705467174
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_126_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -357.83676898762076,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -357.83676898762076
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_100_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": -559.40206790911,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -559.40206790911
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_34_run_0.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -576.4440446347319,
+    "std_reward": 0.0,
+    "run_rewards": [
+      -576.4440446347319
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_51_run_0.npz"
+    ]
+  }
+]

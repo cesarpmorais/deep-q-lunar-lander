@@ -16,16 +16,30 @@ if __name__ == "__main__":
 
     env = gym.make("LunarLander-v3")
 
+    ## 1a leva de testes com parametros
+    # param_grid = {
+    #     "learning_rate": [1e-4, 5e-4, 1e-3],
+    #     "gamma": [0.95, 0.99],
+    #     "epsilon_decay": [0.995, 0.999],
+    #     "batch_size": [32, 64],
+    #     "target_update_freq": [5, 10],
+    #     "hidden_dims": [[64, 64], [128, 128]],
+    #     "epsilon_start": [1.0],
+    #     "epsilon_end": [0.01],
+    #     "buffer_capacity": [50000],
+    # }
+
+    ## 2a leva de testes
     param_grid = {
-        "learning_rate": [1e-4, 5e-4, 1e-3],
-        "gamma": [0.95, 0.99],
-        "epsilon_decay": [0.995, 0.999],
+        "learning_rate": [5e-4, 8e-4, 1e-3],
+        "gamma": [0.99, 0.995],
+        "epsilon_decay": [0.999, 0.9995],
         "batch_size": [32, 64],
         "target_update_freq": [5, 10],
         "hidden_dims": [[64, 64], [128, 128]],
         "epsilon_start": [1.0],
         "epsilon_end": [0.01],
-        "buffer_capacity": [50000],
+        "buffer_capacity": [50000, 100000],
     }
 
     print("Phase A: quick triage (num_episodes=100, num_runs=1)")

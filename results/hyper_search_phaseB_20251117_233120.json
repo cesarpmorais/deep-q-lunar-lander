@@ -1,0 +1,282 @@
+[
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": 219.25336520561734,
+    "std_reward": 25.946967571031472,
+    "run_rewards": [
+      202.98032364386728,
+      255.8724908172554,
+      198.90728115572938
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_0_run_0.npz",
+      "results/hyper_search_histories/config_0_run_1.npz",
+      "results/hyper_search_histories/config_0_run_2.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": 195.849149831029,
+    "std_reward": 36.171510495771344,
+    "run_rewards": [
+      147.22212233782295,
+      233.91498720674218,
+      206.4103399485219
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_0_run_0.npz",
+      "results/hyper_search_histories/config_0_run_1.npz",
+      "results/hyper_search_histories/config_0_run_2.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": 163.98469250932712,
+    "std_reward": 59.76857226896686,
+    "run_rewards": [
+      134.3606185602144,
+      247.3549822956289,
+      110.2384766721381
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_0_run_0.npz",
+      "results/hyper_search_histories/config_0_run_1.npz",
+      "results/hyper_search_histories/config_0_run_2.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.9995,
+      "batch_size": 32,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": 162.20218469694987,
+    "std_reward": 32.52501434830932,
+    "run_rewards": [
+      204.73605930200412,
+      156.09990930452582,
+      125.77058548431967
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_0_run_0.npz",
+      "results/hyper_search_histories/config_0_run_1.npz",
+      "results/hyper_search_histories/config_0_run_2.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": 158.86916778567343,
+    "std_reward": 108.70357218043647,
+    "run_rewards": [
+      253.91307487054087,
+      215.98798880895743,
+      6.706439677521985
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_0_run_0.npz",
+      "results/hyper_search_histories/config_0_run_1.npz",
+      "results/hyper_search_histories/config_0_run_2.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 32,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": 153.80765480864488,
+    "std_reward": 89.44923621215013,
+    "run_rewards": [
+      55.842844494685345,
+      272.10038202170796,
+      133.47973790954134
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_0_run_0.npz",
+      "results/hyper_search_histories/config_0_run_1.npz",
+      "results/hyper_search_histories/config_0_run_2.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": 140.1624403353227,
+    "std_reward": 76.00095618683747,
+    "run_rewards": [
+      55.91148197740987,
+      124.49042801334716,
+      240.08541101521118
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_0_run_0.npz",
+      "results/hyper_search_histories/config_0_run_1.npz",
+      "results/hyper_search_histories/config_0_run_2.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0008,
+      "gamma": 0.99,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 5,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": 129.41641245233754,
+    "std_reward": 39.37761572589847,
+    "run_rewards": [
+      141.5531252927573,
+      76.27980684590148,
+      170.41630521835387
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_0_run_0.npz",
+      "results/hyper_search_histories/config_0_run_1.npz",
+      "results/hyper_search_histories/config_0_run_2.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "epsilon_decay": 0.9995,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 50000
+    },
+    "mean_reward": 30.662220384203675,
+    "std_reward": 75.72730986392227,
+    "run_rewards": [
+      -76.43221764195042,
+      84.0538863952864,
+      84.36499239927504
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_0_run_0.npz",
+      "results/hyper_search_histories/config_0_run_1.npz",
+      "results/hyper_search_histories/config_0_run_2.npz"
+    ]
+  },
+  {
+    "config": {
+      "learning_rate": 0.0005,
+      "gamma": 0.995,
+      "epsilon_decay": 0.999,
+      "batch_size": 64,
+      "target_update_freq": 10,
+      "hidden_dims": [
+        128,
+        128
+      ],
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.01,
+      "buffer_capacity": 100000
+    },
+    "mean_reward": -8.91660459186641,
+    "std_reward": 166.3444131115459,
+    "run_rewards": [
+      215.64993152113328,
+      -181.88841196011407,
+      -60.51133333661844
+    ],
+    "run_history_files": [
+      "results/hyper_search_histories/config_0_run_0.npz",
+      "results/hyper_search_histories/config_0_run_1.npz",
+      "results/hyper_search_histories/config_0_run_2.npz"
+    ]
+  }
+]
