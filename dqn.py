@@ -129,8 +129,9 @@ class DQNAgent:
 
         self.optimizer.zero_grad()
         loss.backward()
+
         # Gradient clipping to stabilize training - is it necessary?
-        # torch.nn.utils.clip_grad_norm_(self.q_network.parameters(), 1.0)
+        torch.nn.utils.clip_grad_norm_(self.q_network.parameters(), 1.0)
         self.optimizer.step()
 
         # Updates target network periodically

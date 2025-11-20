@@ -1,30 +1,30 @@
 Configuração top-1:
-Hiperparâmetros: {'learning_rate': 0.0008, 'gamma': 0.99, 'epsilon_decay': 0.9995, 'batch_size': 64, 'target_update_freq': 10, 'hidden_dims': [64, 64], 'epsilon_start': 1.0, 'epsilon_end': 0.01, 'buffer_capacity': 50000}
-Recompensa média baseline: 168.4752960205078
-Recompensa média do top-1: 219.25336520561734
-Diferença: 50.78
+Hiperparâmetros: {'learning_rate': 0.0008, 'gamma': 0.99, 'epsilon_decay': 0.999, 'batch_size': 64, 'target_update_freq': 10, 'hidden_dims': [128, 128], 'epsilon_start': 1.0, 'epsilon_end': 0.01, 'buffer_capacity': 100000}
+Recompensa média baseline: 172.1175994873047
+Recompensa média do top-1: 226.5142504471058
+Diferença: 54.40
 
 Configuração top-2:
-Hiperparâmetros: {'learning_rate': 0.0008, 'gamma': 0.99, 'epsilon_decay': 0.999, 'batch_size': 64, 'target_update_freq': 10, 'hidden_dims': [128, 128], 'epsilon_start': 1.0, 'epsilon_end': 0.01, 'buffer_capacity': 50000}
-Recompensa média baseline: 190.9652099609375
-Recompensa média do top-2: 195.849149831029
-Diferença: 4.88
+Hiperparâmetros: {'learning_rate': 0.0005, 'gamma': 0.99, 'epsilon_decay': 0.999, 'batch_size': 64, 'target_update_freq': 10, 'hidden_dims': [128, 128], 'epsilon_start': 1.0, 'epsilon_end': 0.01, 'buffer_capacity': 100000}
+Recompensa média baseline: 178.07882690429688
+Recompensa média do top-2: 225.18539932810717
+Diferença: 47.11
 
 Configuração top-3:
-Hiperparâmetros: {'learning_rate': 0.0005, 'gamma': 0.995, 'epsilon_decay': 0.9995, 'batch_size': 64, 'target_update_freq': 10, 'hidden_dims': [128, 128], 'epsilon_start': 1.0, 'epsilon_end': 0.01, 'buffer_capacity': 100000}
-Recompensa média baseline: -839.1465454101562
-Recompensa média do top-3: 163.98469250932712
-Diferença: 1003.13
+Hiperparâmetros: {'learning_rate': 0.0008, 'gamma': 0.99, 'epsilon_decay': 0.999, 'batch_size': 64, 'target_update_freq': 10, 'hidden_dims': [128, 128], 'epsilon_start': 1.0, 'epsilon_end': 0.01, 'buffer_capacity': 50000}
+Recompensa média baseline: 213.95982360839844
+Recompensa média do top-3: 134.09755538541194
+Diferença: -79.86
 
 Configuração top-4:
-Hiperparâmetros: {'learning_rate': 0.0005, 'gamma': 0.995, 'epsilon_decay': 0.9995, 'batch_size': 32, 'target_update_freq': 10, 'hidden_dims': [128, 128], 'epsilon_start': 1.0, 'epsilon_end': 0.01, 'buffer_capacity': 50000}
-Recompensa média baseline: 200.1316375732422
-Recompensa média do top-4: 162.20218469694987
-Diferença: -37.93
+Hiperparâmetros: {'learning_rate': 0.001, 'gamma': 0.99, 'epsilon_decay': 0.999, 'batch_size': 64, 'target_update_freq': 10, 'hidden_dims': [128, 128], 'epsilon_start': 1.0, 'epsilon_end': 0.01, 'buffer_capacity': 50000}
+Recompensa média baseline: 206.1314239501953
+Recompensa média do top-4: 85.72271946164986
+Diferença: -120.41
 
 Configuração top-5:
-Hiperparâmetros: {'learning_rate': 0.001, 'gamma': 0.99, 'epsilon_decay': 0.9995, 'batch_size': 64, 'target_update_freq': 10, 'hidden_dims': [128, 128], 'epsilon_start': 1.0, 'epsilon_end': 0.01, 'buffer_capacity': 50000}
-Recompensa média baseline: 184.04470825195312
-Recompensa média do top-5: 158.86916778567343
-Diferença: -25.18
+Hiperparâmetros: {'learning_rate': 0.001, 'gamma': 0.995, 'epsilon_decay': 0.9995, 'batch_size': 64, 'target_update_freq': 10, 'hidden_dims': [128, 128], 'epsilon_start': 1.0, 'epsilon_end': 0.01, 'buffer_capacity': 50000}
+Recompensa média baseline: -835.5870971679688
+Recompensa média do top-5: -65.16596669157926
+Diferença: 770.42
 

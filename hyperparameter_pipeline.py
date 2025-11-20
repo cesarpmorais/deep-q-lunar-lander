@@ -30,12 +30,25 @@ if __name__ == "__main__":
     # }
 
     ## 2a leva de testes
+    # param_grid = {
+    #     "learning_rate": [5e-4, 8e-4, 1e-3],
+    #     "gamma": [0.99, 0.995],
+    #     "epsilon_decay": [0.999, 0.9995],
+    #     "batch_size": [32, 64],
+    #     "target_update_freq": [5, 10],
+    #     "hidden_dims": [[64, 64], [128, 128]],
+    #     "epsilon_start": [1.0],
+    #     "epsilon_end": [0.01],
+    #     "buffer_capacity": [50000, 100000],
+    # }
+
+    ## 3a leva de testes
     param_grid = {
         "learning_rate": [5e-4, 8e-4, 1e-3],
         "gamma": [0.99, 0.995],
         "epsilon_decay": [0.999, 0.9995],
-        "batch_size": [32, 64],
-        "target_update_freq": [5, 10],
+        "batch_size": [64],
+        "target_update_freq": [10],
         "hidden_dims": [[64, 64], [128, 128]],
         "epsilon_start": [1.0],
         "epsilon_end": [0.01],
@@ -48,19 +61,19 @@ if __name__ == "__main__":
         param_grid=param_grid,
         num_episodes=100,
         eval_episodes=10,
-        num_runs=1,
+        num_runs=3,
         results_file_name=phaseA_file,
     )
 
     with open(phaseA_file, "r") as f:
         phaseA_data = json.load(f)
 
-    K = 10
+    K = 5
     top_k = phaseA_data[:K]
     top_configs = [r["config"] for r in top_k]
 
     print(
-        f"\nPhase B: refining top {len(top_configs)} configs (num_episodes=500, num_runs=3)"
+        f"\nPhase B: refining top {len(top_configs)} configs (num_episodes=500, num_runs=10s)"
     )
 
     # Para cada configuração do top-K, chame `grid_search` com um `param_grid`
@@ -79,7 +92,7 @@ if __name__ == "__main__":
             param_grid=single_param_grid,
             num_episodes=500,
             eval_episodes=10,
-            num_runs=3,
+            num_runs=5,
             results_file_name=tmp_fname,
         )
 
