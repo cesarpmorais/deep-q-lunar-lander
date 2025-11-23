@@ -1,0 +1,98 @@
+COMPARAÇÃO DETALHADA - BASELINE vs HYPERPARAMETER SEARCH
+============================================================
+
+Configuração top-1:
+Hiperparâmetros: {'learning_rate': 0.0008, 'gamma': 0.99, 'epsilon_decay': 0.999, 'batch_size': 64, 'target_update_freq': 10, 'hidden_dims': [128, 128], 'epsilon_start': 1.0, 'epsilon_end': 0.01, 'buffer_capacity': 100000}
+
+BASELINE (Stable-Baselines3 DQN):
+  Recompensa média: 148.9814
+  Desvio padrão: 84.8212
+  Recompensas por run: [np.float32(227.95265), np.float32(216.85352), np.float32(154.86533), np.float32(-9.335409), np.float32(154.57089)]
+
+ORIGINAL (Custom DQN):
+  Recompensa média: 226.5143
+  Desvio padrão: 66.6173
+  Recompensas por run: [271.48265463289204, 264.2239974934605, 95.53888052299871, 236.09754194437892, 265.2281776417989]
+
+COMPARAÇÃO:
+  Diferença (Original - Baseline): 77.5329
+  Baseline superior: Não
+  Significância da diferença: 0.91
+================================================================================
+
+Configuração top-2:
+Hiperparâmetros: {'learning_rate': 0.0005, 'gamma': 0.99, 'epsilon_decay': 0.999, 'batch_size': 64, 'target_update_freq': 10, 'hidden_dims': [128, 128], 'epsilon_start': 1.0, 'epsilon_end': 0.01, 'buffer_capacity': 100000}
+
+BASELINE (Stable-Baselines3 DQN):
+  Recompensa média: 168.8471
+  Desvio padrão: 69.6167
+  Recompensas por run: [np.float32(212.42789), np.float32(211.99164), np.float32(77.39806), np.float32(93.43508), np.float32(248.98303)]
+
+ORIGINAL (Custom DQN):
+  Recompensa média: 225.1854
+  Desvio padrão: 39.5636
+  Recompensas por run: [265.5479604857634, 231.95683822355045, 185.4101088345655, 269.16241235664484, 173.84967674001183]
+
+COMPARAÇÃO:
+  Diferença (Original - Baseline): 56.3383
+  Baseline superior: Não
+  Significância da diferença: 0.81
+================================================================================
+
+Configuração top-3:
+Hiperparâmetros: {'learning_rate': 0.0008, 'gamma': 0.99, 'epsilon_decay': 0.999, 'batch_size': 64, 'target_update_freq': 10, 'hidden_dims': [128, 128], 'epsilon_start': 1.0, 'epsilon_end': 0.01, 'buffer_capacity': 50000}
+
+BASELINE (Stable-Baselines3 DQN):
+  Recompensa média: 173.3225
+  Desvio padrão: 47.0559
+  Recompensas por run: [np.float32(220.24063), np.float32(198.52437), np.float32(203.73726), np.float32(90.01539), np.float32(154.09477)]
+
+ORIGINAL (Custom DQN):
+  Recompensa média: 134.0976
+  Desvio padrão: 134.2035
+  Recompensas por run: [209.39094681756356, 203.59431230740591, -129.50338946675328, 154.70526249590972, 232.30064477293382]
+
+COMPARAÇÃO:
+  Diferença (Original - Baseline): -39.2249
+  Baseline superior: Sim
+  Significância da diferença: 0.29
+================================================================================
+
+Configuração top-4:
+Hiperparâmetros: {'learning_rate': 0.001, 'gamma': 0.99, 'epsilon_decay': 0.999, 'batch_size': 64, 'target_update_freq': 10, 'hidden_dims': [128, 128], 'epsilon_start': 1.0, 'epsilon_end': 0.01, 'buffer_capacity': 50000}
+
+BASELINE (Stable-Baselines3 DQN):
+  Recompensa média: 161.3725
+  Desvio padrão: 11.9934
+  Recompensas por run: [np.float32(166.95827), np.float32(177.52565), np.float32(154.15294), np.float32(165.72209), np.float32(142.50336)]
+
+ORIGINAL (Custom DQN):
+  Recompensa média: 85.7227
+  Desvio padrão: 204.8499
+  Recompensas por run: [274.2366218377764, 147.25780735670656, 258.8026990801609, -285.556421605211, 33.872890638816365]
+
+COMPARAÇÃO:
+  Diferença (Original - Baseline): -75.6497
+  Baseline superior: Sim
+  Significância da diferença: 0.37
+================================================================================
+
+Configuração top-5:
+Hiperparâmetros: {'learning_rate': 0.001, 'gamma': 0.995, 'epsilon_decay': 0.9995, 'batch_size': 64, 'target_update_freq': 10, 'hidden_dims': [128, 128], 'epsilon_start': 1.0, 'epsilon_end': 0.01, 'buffer_capacity': 50000}
+
+BASELINE (Stable-Baselines3 DQN):
+  Recompensa média: -167.7590
+  Desvio padrão: 416.3658
+  Recompensas por run: [np.float32(-79.61446), np.float32(151.38605), np.float32(-58.32495), np.float32(126.917015), np.float32(-979.1587)]
+
+ORIGINAL (Custom DQN):
+  Recompensa média: -65.1660
+  Desvio padrão: 535.8444
+  Recompensas por run: [266.65721188279974, 245.11764918488842, -1114.619103592257, -11.40266686203785, 288.4170759287105]
+
+COMPARAÇÃO:
+  Diferença (Original - Baseline): 102.5930
+  Baseline superior: Não
+  Significância da diferença: 0.19
+================================================================================
+
