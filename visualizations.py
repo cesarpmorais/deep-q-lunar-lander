@@ -132,7 +132,7 @@ class DQNVisualizer:
         if loss_history is not None and len(loss_history) > 0:
             loss = np.array(loss_history)
             # tentativa de suavização
-            lw = min(100, max(1, len(loss) // 10))
+            lw = 2000
             if len(loss) >= lw:
                 smooth = self.moving_average(loss, lw)
                 ax3.plot(range(lw - 1, len(loss)), smooth, label="Loss suavizada", color=self.colors[3])
@@ -148,24 +148,9 @@ class DQNVisualizer:
             ax3.text(0.5, 0.5, "Sem loss_history", ha="center", va="center")
             ax3.set_axis_off()
 
-        # 4) epsilon
-        if epsilon_history is not None and len(epsilon_history) > 0:
-            eps = np.array(epsilon_history)
-            ax4.plot(eps, label="Epsilon", color=self.colors[4])
-            ax4.set_title("Decaimento de Epsilon")
-            ax4.set_xlabel("Atualizações")
-            ax4.set_ylabel("Epsilon")
-            ax4.grid(True, alpha=0.3)
-            ax4.legend()
-        else:
-            ax4.text(0.5, 0.5, "Sem epsilon_history", ha="center", va="center")
-            ax4.set_axis_off()
-
-        # info de config (pequeno box)
-        if config is not None:
-            cfg_items = list(config.items())[:6]
-            cfg_text = "\n".join([f"{k}: {v}" for k, v in cfg_items])
-            fig.text(0.02, 0.02, f"Config:\n{cfg_text}", fontsize=9, bbox=dict(facecolor="lightgray", alpha=0.5))
+        config_str = "\n".join([f"{k}: {v}" for k, v in config.items()])
+        ax4.axis("off")
+        ax4.text(0.5, 0.5, config_str, fontsize=20, ha="center", va="center", fontfamily="monospace", bbox=dict(boxstyle="round", fc="white", ec="black"))
 
         fig.suptitle(f"DQN Training Progress {title_suffix}", fontsize=16)
         plt.tight_layout(rect=[0, 0.03, 1, 0.95])
@@ -332,8 +317,19 @@ class DQNVisualizer:
         """Executa a pipeline automática: encontra os JSONs mais recentes de
         Phase A/B, seleciona top-k e gera todos os gráficos relevantes."""
         # procura os arquivos phaseA e phaseB mais recentes
-        phaseA_files = [p for p in Path(phaseA_glob_folder).iterdir() if p.is_file() and phaseA_pattern in p.name]
-        phaseB_files = [p for p in Path(phaseB_glob_folder).iterdir() if p.is_file() and phaseB_pattern in p.name]
+        phaseA_files = [
+            p for p in Path(phaseA_glob_folder).iterdir()
+            if p.is_file()
+            and phaseA_pattern in p.name
+            and "cfg" not in p.name     # IGNORA arquivos individuais vazios
+        ]
+
+        phaseB_files = [
+            p for p in Path(phaseB_glob_folder).iterdir()
+            if p.is_file()
+            and phaseB_pattern in p.name
+            and "cfg" not in p.name     # IGNORA os cfgX.json
+        ]
 
         if not phaseA_files:
             print("[WARN] Nenhum arquivo Phase A encontrado em", phaseA_glob_folder)
@@ -346,8 +342,13 @@ class DQNVisualizer:
             print("[WARN] Nenhum arquivo Phase B encontrado em", phaseB_glob_folder)
             phaseB_results = []
         else:
-            phaseB_latest = sorted(phaseB_files)[-1]
-            phaseB_results = self.load_json_safe(str(phaseB_latest))
+            #phaseB_latest = sorted(phaseB_files)[-1]
+            phaseB_results = []
+            for f in sorted(phaseB_files):
+                data = self.load_json_safe(str(f))
+                if isinstance(data, list):
+                    phaseB_results.extend(data)
+
 
         # Seleciona top-3 Phase A
         top3_A = phaseA_results[:3]
@@ -461,8 +462,8 @@ class DQNVisualizer:
                 # salva pipeline comparativo
                 # tenta usar os dois arquivos mais recentes
                 try:
-                    phaseA_latest_path = str(sorted(Path(phaseA_glob_folder).iterdir())[-1])
-                    phaseB_latest_path = str(sorted(Path(phaseB_glob_folder).iterdir())[-1])
+                    phaseA_latest_path = str(sorted(phaseA_files)[-1])
+                    phaseB_latest_path = str(sorted(phaseB_files)[-1])
                     self.plot_pipeline_comparison(phaseA_latest_path, phaseB_latest_path)
                 except Exception:
                     pass

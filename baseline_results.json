@@ -1,0 +1,84 @@
+{
+    "results": [
+        {
+            "config": {
+                "learning_rate": 0.0008,
+                "gamma": 0.99,
+                "epsilon_decay": 0.999,
+                "batch_size": 64,
+                "target_update_freq": 10,
+                "hidden_dims": [128, 128],
+                "epsilon_start": 1.0,
+                "epsilon_end": 0.01,
+                "buffer_capacity": 100000
+            },
+            "mean_reward": 148.9814,
+            "std_reward": 84.8212,
+            "rewards": [227.95265, 216.85352, 154.86533, -9.335409, 154.57089]
+        },
+        {
+            "config": {
+                "learning_rate": 0.0005,
+                "gamma": 0.99,
+                "epsilon_decay": 0.999,
+                "batch_size": 64,
+                "target_update_freq": 10,
+                "hidden_dims": [128, 128],
+                "epsilon_start": 1.0,
+                "epsilon_end": 0.01,
+                "buffer_capacity": 100000
+            },
+            "mean_reward": 168.8471,
+            "std_reward": 69.6167,
+            "rewards": [212.42789, 211.99164, 77.39806, 93.43508, 248.98303]
+        },
+        {
+            "config": {
+                "learning_rate": 0.0008,
+                "gamma": 0.99,
+                "epsilon_decay": 0.999,
+                "batch_size": 64,
+                "target_update_freq": 10,
+                "hidden_dims": [128, 128],
+                "epsilon_start": 1.0,
+                "epsilon_end": 0.01,
+                "buffer_capacity": 50000
+            },
+            "mean_reward": 173.3225,
+            "std_reward": 47.0559,
+            "rewards": [220.24063, 198.52437, 203.73726, 90.01539, 154.09477]
+        },
+        {
+            "config": {
+                "learning_rate": 0.001,
+                "gamma": 0.99,
+                "epsilon_decay": 0.999,
+                "batch_size": 64,
+                "target_update_freq": 10,
+                "hidden_dims": [128, 128],
+                "epsilon_start": 1.0,
+                "epsilon_end": 0.01,
+                "buffer_capacity": 50000
+            },
+            "mean_reward": 161.3725,
+            "std_reward": 11.9934,
+            "rewards": [166.95827, 177.52565, 154.15294, 165.72209, 142.50336]
+        },
+        {
+            "config": {
+                "learning_rate": 0.001,
+                "gamma": 0.995,
+                "epsilon_decay": 0.9995,
+                "batch_size": 64,
+                "target_update_freq": 10,
+                "hidden_dims": [128, 128],
+                "epsilon_start": 1.0,
+                "epsilon_end": 0.01,
+                "buffer_capacity": 50000
+            },
+            "mean_reward": -167.7590,
+            "std_reward": 416.3658,
+            "rewards": [-79.61446, 151.38605, -58.32495, 126.917015, -979.1587]
+        }
+    ]
+}
